@@ -170,3 +170,11 @@ function masa() {
 
     // alert(fahrenheit + "F");
 }
+
+function longitud() {
+    var metro = document.getElementById("resultado").value;
+    var centimetro = ((metro) * 100);
+    resultado2.value = eval(centimetro)
+
+    // alert(fahrenheit + "F");
+}
