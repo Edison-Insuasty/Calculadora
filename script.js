@@ -154,3 +154,11 @@ function convertir() {
 
     // alert(fahrenheit + "F");
 }
+
+function presion() {
+    var pascal = document.getElementById("resultado").value;
+    var bar = ((pascal) / 100000);
+    resultado2.value = eval(bar)
+
+    // alert(fahrenheit + "F");
+}
