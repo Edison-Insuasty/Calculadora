@@ -162,3 +162,11 @@ function presion() {
 
     // alert(fahrenheit + "F");
 }
+
+function masa() {
+    var kilo = document.getElementById("resultado").value;
+    var gramo = ((kilo) * 1000);
+    resultado2.value = eval(gramo)
+
+    // alert(fahrenheit + "F");
+}
